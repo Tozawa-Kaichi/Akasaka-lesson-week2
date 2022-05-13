@@ -18,11 +18,34 @@ public class Samople : MonoBehaviour
 
         // $ 記号による補間文字列
         Debug.Log($"x={x}, y={y}");
+
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void Hairetu()
+    {
+        // ■配列型変数宣言
+        // 要素型[] 変数名;
+        int[] iAry;
+
+        // ■配列の生成
+        // new 要素型[要素数];
+        iAry = new int[3]; // 配列生成と変数への保存
+
+        // 配列要素へのアクセス
+        iAry[0] = 10;
+        iAry[1] = 20;
+        iAry[2] = 30;
+
+        Debug.Log($"iAry[0]={iAry[0]}");
+        Debug.Log($"iAry[1]={iAry[1]}");
+        Debug.Log($"iAry[2]={iAry[2]}");
     }
 }
